@@ -1,0 +1,151 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-top: 50px;
+}
+
+.logo1 {
+  color: white;
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bolder;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.logo2 {
+  color: #f05959;
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.list li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.list li a {
+  color: #d6d4d4;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+.list li a:hover {
+  color: beige;
+}
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  color: white;
+  background-color: #eb5f63;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background-color: #f08488;
+  cursor: pointer;
+}
+
+.alogo {
+  text-decoration: none;
+}
+
+.tech {
+  color: white;
+  font-size: 80px;
+  display: flex;
+  margin: 10px auto auto 320px;
+  letter-spacing: 20px;
+}
+
+.montserrat-Bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.montserrat-SemiBold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.edu {
+  color: #d06566;
+  font-size: 40px;
+  display: flex;
+  margin: 10px auto auto 360px;
+  letter-spacing: 10px;
+}
+
+.rocket {
+  position: absolute;
+  top: 60%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  height: 45%;
+}
+
+.fire1 {
+  border-bottom: 200px solid #df4848;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0px;
+  width: 50px;
+  position: absolute;
+  top: 82%;
+  left: 45.25%;
+  transform: translate(-50%, -50%);
+  height: 45%;
+}
+
+.fire2 {
+  border-bottom: 200px solid #df4848;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0px;
+  width: 50px;
+  position: absolute;
+  top: 82%;
+  left: 50.8%;
+  transform: translate(-50%, -50%);
+  height: 45%;
+}
+
+.dust1 {
+  position: absolute;
+  width: 600px;
+  height: 110px;
+  top: 92.35%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.dust2 {
+  position: absolute;
+  width: 650px;
+  height: 110px;
+  top: 92.35%;
+  left: 76.5%;
+  transform: translate(-50%, -50%);
+}
